@@ -13,6 +13,6 @@ public class HelloServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request,
                          HttpServletResponse response) throws ServletException, IOException {
         PrintWriter writer = response.getWriter();
-        writer.print("Hello World");
+        writer.print("\nHello World\n");
     }
 }
