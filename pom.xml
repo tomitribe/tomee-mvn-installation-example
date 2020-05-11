@@ -12,7 +12,7 @@
         <plugin>
           <groupId>org.apache.tomee.maven</groupId>
           <artifactId>tomee-maven-plugin</artifactId>
-          <version>8.0.1-SNAPSHOT</version>
+          <version>8.0.1</version>
           <configuration>
             <tomeeClassifier>plume</tomeeClassifier>
             <args>-Xmx512m -XX:PermSize=256m</args>
